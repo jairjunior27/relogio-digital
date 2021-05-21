@@ -10,13 +10,13 @@ function relogio(){
     seg= data.getSeconds();
 
     if(horas<10){
-        horas = +'0'+horas;
+        horas = '0'+horas;
     }
     if(min<10){
-        min = +'0'+min;
+        min = '0'+min;
     }
     if(seg<10){
-        seg = +'0'+seg;
+        seg = '0'+seg;
     }
     horario = horas+':'+min+':'+seg;
     detalhes =  dia[data.getDay()] +' '+ data.getDate()+ ' de ' + mes[data.getMonth()] + ' '+data.getFullYear();
